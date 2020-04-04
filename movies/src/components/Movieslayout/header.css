@@ -1,0 +1,40 @@
+.nav_bar{
+/* background-color: rgb(101, 107, 90); */
+background-image: url("/hd.png");
+background-repeat: no-repeat;
+background-size: cover;
+border-bottom-left-radius: 7%;
+border-bottom-right-radius: 7%;
+z-index:1000;
+height:4vw;
+top: 0;
+position: fixed;
+width: 100vw;
+
+}
+
+.nav_bar img{
+    width: 2.5vw;
+    height: 2.5vw;
+    position: fixed;
+    padding-top: 0;
+    top: 1vw;
+}
+
+.nav_bar span{
+    top:1vw;
+    left:8%;
+    text-align: left;
+    position: fixed;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.5vw;
+}
+
+.homePostion{
+  left: 5%;
+}
+
+.favPostion{
+    left: 90%;
+}

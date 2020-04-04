@@ -1,0 +1,24 @@
+input[type=text] {
+    width: 5vw;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-size: 0.5vw;
+ 
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 10vw;
+    font-size: 1vw;
+  }
+
+  .sreach{
+    position: fixed;
+    left:87% ;
+    top:5vw;
+    margin-bottom: 2%;
+  }
+  .sreach input:focus{
+    border-color: yellowgreen;
+    border-radius: 1%;
+  }

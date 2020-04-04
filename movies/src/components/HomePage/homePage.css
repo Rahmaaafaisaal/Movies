@@ -1,0 +1,41 @@
+.sideNav{
+    position:fixed;
+    left:1%;
+    top:15%;
+    text-align: left;
+    overflow: hidden;
+    width: 10%;
+}
+
+.navOptions{
+    text-decoration: none;
+    list-style-type:none;
+    margin-top: 2%;
+    font-style: italic;
+    font-size: 1vw;
+    margin-left: 0;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    padding-left: 3vw;
+    
+}
+
+.option{
+    width: 40%;
+    height: 20%; 
+}
+
+.navButtons{
+    background: none;
+    border: none;
+    color: black;
+    margin-bottom: 2%;
+    font-style: italic;
+    font-size: 0.8vw;
+  
+}
+.navButtons:focus{
+    outline: none;
+}
